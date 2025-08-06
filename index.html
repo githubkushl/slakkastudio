@@ -513,8 +513,7 @@ Im super happy with the whole outcome and I highly recommend Kush.
                         <div class="form-header">
                             <span class="form-badge">Application Form</span>
                         </div>
-                        <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-    <input type="hidden" name="access_key" value="9d6ce855-6aa1-4943-b9a0-3489fb979f99">
+                        <form class="contact-form" id="contactForm" action="https://formsubmit.co/your@email.com" method="POST">
 
                             <div class="form-group">
                                 <label for="name">Full Name</label>
@@ -566,7 +565,7 @@ Im super happy with the whole outcome and I highly recommend Kush.
                                 <textarea id="message" name="message" rows="5" placeholder="Please describe your project goals and any specific requirements" required></textarea>
                             </div>
                             <div class="form-group checkbox-group">
-                                <input type="checkbox" id="exclusive" name="exclusive" checked>
+                                <input type="checkbox" id="exclusive" name="exclusive" unchecked>
                                 <label for="exclusive">I understand that Slakka Studios works with a limited number of clients and project acceptance is subject to availability and fit.</label>
                             </div>
                             <button type="submit" class="btn-primary submit-btn">
@@ -672,6 +671,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
 </body>
 
 </html>
+
 
 
 
